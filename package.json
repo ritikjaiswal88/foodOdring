@@ -2,8 +2,8 @@
   "name": "swiggy",
   "version": "1.0.0",
   "description": "this is a swiggy clone creating using react and tailwind ",
-  "homepage": "https://<YOUR_GITHUB_USERNAME>.github.io/swiggy",
-  "scripts": {
+  "homepage": "https://ritikjaiswal88.github.io/foodOdring.git",
+    "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "predeploy": "npm run build",
