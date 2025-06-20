@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.nav-items > ul >li{
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.res-card:hover{
+ border: solid black 1px;
+ cursor: pointer;
+}
+
+.filterBtn{
+    padding: 4px;
+    margin: 10px;
+}
+
+
+.topreted-container {
+    white-space: nowrap;
+    width: 100%;
+}
+.scroll-smooth {
+    scroll-behavior: smooth;
+}
+
+.topreted-container {
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling for touch devices */
+}
+
+.topreted-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+
+
