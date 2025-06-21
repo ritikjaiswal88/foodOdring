@@ -5,11 +5,9 @@
   <title>Redirecting...</title>
   <script type="text/javascript">
     // Get the base URL from the homepage field in package.json
-    var homepage = 'https://ritikjaiswal88.github.io/foodOdring'; // Replace with your actual homepage URL
-
+    var homepage = 'https://ritikjaiswal88.github.io/foodOdring/'; // <--- MAKE SURE THIS MATCHES EXACTLY
     // Get the current path without the base URL
     var path = window.location.pathname.replace(homepage.replace(/^https?:\/\/[^\/]+\//, '/'), '');
-
     // Redirect to the homepage with the original path as a hash, so React Router can pick it up
     window.location.replace(homepage + '#' + path);
   </script>
